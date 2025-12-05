@@ -7,9 +7,12 @@ Aplikasi ini menampilkan **Form Login** menggunakan Flutter yang terhubung denga
 
 ## 📸 Hasil Screenshot
 
-![Screenshot Login1](assets/images/formlogin.png)
-![Screenshot Login2](assets/images/formloginfail.png)
-![Screenshot Login3](assets/images/formloginsuccess.png)
+<p align="center">
+  <img src="assets/images/formlogin.png" width="300">
+  <img src="assets/images/formloginfail.png" width="300">
+  <img src="assets/images/formloginsuccess.png" width="300">
+</p>
+
 
 
 ---
@@ -48,4 +51,5 @@ Project ini masih merupakan **implementasi dasar form login menggunakan Firebase
 ---
 
 ✨ *Dibuat dengan sepenuh hati.*
+
 
