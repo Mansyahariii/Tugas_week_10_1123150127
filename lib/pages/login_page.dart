@@ -61,7 +61,19 @@ class _LoginPageState extends State<LoginPage> {
       appBar: AppBar(title: const Text("Dashboard"), actions: const []),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(10.0),
-        child: Column(children: []),
+        child: Column(
+          children: [
+            TextField(
+              controller: emailCtrl,
+              decoration: const InputDecoration(labelText: 'Email'),
+            ),
+            TextField(
+              controller: passCtrl,
+              decoration: const InputDecoration(labelText: 'Password'),
+              obscureText: true,
+            ),
+          ],
+        ),
       ),
     );
   }
