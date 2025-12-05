@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Coba Login',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: LoginPage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
