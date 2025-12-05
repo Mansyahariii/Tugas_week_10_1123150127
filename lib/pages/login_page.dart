@@ -67,10 +67,20 @@ class _LoginPageState extends State<LoginPage> {
               controller: emailCtrl,
               decoration: const InputDecoration(labelText: 'Email'),
             ),
+            SizedBox(height: 8),
             TextField(
               controller: passCtrl,
               decoration: const InputDecoration(labelText: 'Password'),
               obscureText: true,
+            ),
+            SizedBox(height: 16),
+            if (_error != null) ...[
+              Text(_error!, style: TextStyle(color: Colors.red)),
+              SizedBox(height: 8),
+            ],
+            ElevatedButton(
+              onPressed: _isLoading ? null : _login,
+              child: _isLoading ? CircularProgressIndicator() : Text('Login'),
             ),
           ],
         ),
